@@ -4,7 +4,7 @@ jobs:
   first_job: 
     runs-on: ubuntu-latest
     steps: 
-     -name: afficher OpenCart
-      run: echo "Begin"
-     -name: dire good luck
-      run: echo "Fin"
+     - name: afficher OpenCart
+       run: echo "salut"
+     - name: fermer OpenCart
+       run: echo "Fin"
